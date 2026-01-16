@@ -159,7 +159,7 @@ ${correctionInput}
       const data = await response.json();
       if (!data.content || data.content.length === 0) throw new Error('API返回数据为空');
       const correctedText = data.content.filter(item => item.type === 'text').map(item => item.text).join('\n');
-      if (!correctedText.trim()) throw new Error('生成的纠正内容为空'
+      if (!correctedText.trim()) throw new Error('生成的纠正内容为空');
       const newVersion = {
         content: correctedText,
         timestamp: new Date().toLocaleString('zh-CN'),
