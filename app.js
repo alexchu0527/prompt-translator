@@ -242,7 +242,6 @@ return React.createElement('div', { className: 'min-h-screen bg-gradient-to-br f
           React.createElement('div', { className: 'flex gap-3' }, React.createElement('span', { className: 'text-2xl' }, '⏮️'), React.createElement('div', null, React.createElement('strong', { className: 'block mb-1' }, '版本回退'), '一键回退到任意历史版本，随时恢复到之前满意的状态'))
         )
       )
-    )
   );
 }
 
